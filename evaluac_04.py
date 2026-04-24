@@ -45,4 +45,36 @@ class Docente(Persona):
         self.__especialidad = especialidad
     def obtener_rol(self):
         return f"Docente de {self.__especialidad}"
+    
+# 4. Clase: Asignatura
+class Asignatura:
+    def __init__(self, codigo, nombre):
+        self.__codigo = codigo
+        self.__nombre = nombre
+
+    def get_info(self):
+        return f"[{self.__codigo}] {self.__nombre}"
+
+# 5. Clase: Sección (Sistema)
+class Seccion:
+    def __init__(self, id_seccion, asignatura, docente):
+        self.__id_seccion = id_seccion
+        self.__asignatura = asignatura
+        self.__docente = docente
+        self.__estudiantes = []
+
+    def agregar_estudiante(self, estudiante):
+        self.__estudiantes.append(estudiante)
+
+    def generar_reporte_seccion(self): 
+        print(f"\n--- REPORTE: {self.__asignatura.get_info()} ---")
+        print(f"Docente a cargo: {self.__docente.get_nombre()}")
+        print(f"ID Sección: {self.__id_seccion}")
+        print("-" * 30)
+        for e in self.__estudiantes:
+            estado = "APROBADO" if e.validar_aprobacion() else "REPROBADO"
+            print(f"Alumno: {e.get_nombre()} | Promedio: {e.calcular_promedio():.1f} | {estado}")
+            print(f"Estado Financiero: {e.validar_beca()}")
+
+
 
