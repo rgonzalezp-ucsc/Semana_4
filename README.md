@@ -1,8 +1,8 @@
 Evaluación Semana 4
 ____________________________
-Alumno: Rodrigo I. González P.
-Asignatura: Desarrollo de Sistemas Orientado a Objetos
-Profesor: Pablo Lastra
+* Alumno: Rodrigo I. González P.
+* Asignatura: Desarrollo de Sistemas Orientado a Objetos
+* Profesor: Pablo Lastra
 __________________________________________
 
 ** Creación de sistema académico **
