@@ -1,0 +1,39 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+abstract class Persona {
+    - rut: string
+    - nombre: string
+    + {abstract} obtener_rol(): string
+    + mostrar_datos(): string
+}
+class Estudiante {
+    - carrera: string
+    - calificaciones: list<float>
+    + inscribir_en_curso(): void
+    + registrar_nota(nota: float): void
+    + calcular_promedio(): float
+    + validar_aprobacion(): bool
+    + obtener_rol(): string
+}
+
+class Asignatura {
+    - nombre: string
+    - codigo: string
+    + obtener_info(): string
+}
+class Seccion {
+    - id_seccion: string
+    - asignatura: Asignatura
+    - docente: Docente
+    - inscritos: list<Estudiante>
+    + agregar_estudiante(e: Estudiante): void
+    + generar_acta_notas(): void
+}
+
+Persona <|-- Estudiante
+Persona <|-- Docente
+Seccion "1" o-- "1" Asignatura : imparte
+Seccion "1" o-- "1" Docente : dictada por
+Seccion "1" o-- "*" Estudiante : tiene
+@enduml
