@@ -76,5 +76,31 @@ class Seccion:
             print(f"Alumno: {e.get_nombre()} | Promedio: {e.calcular_promedio():.1f} | {estado}")
             print(f"Estado Financiero: {e.validar_beca()}")
 
+# --- FLUJO DE EJECUCIÓN ---
+def main():
+    # componentes
+    profe = Docente("12.345.678-9", "Pablo Lastra", "Programación")
+    ramo = Asignatura("POO01", "Programación Orientada a Objetos")
+    mi_seccion = Seccion("INF-01", ramo, profe)
 
+    # Creación de estudiantes
+    alumno1 = Estudiante("21.111.111-1", "Rodrigo González", "Informática", True)
+    alumno2 = Estudiante("22.222.222-2", "Armando Casas", "Informática", False)
 
+    # Registro de notas
+    alumno1.registrar_nota(7.0)
+    alumno1.registrar_nota(6.0)
+    alumno2.registrar_nota(3.5)
+    alumno2.registrar_nota(4.0)
+
+    # Integración en la sección
+    mi_seccion.agregar_estudiante(alumno1)
+    mi_seccion.agregar_estudiante(alumno2)
+
+    # SALIDA
+    print(f"Iniciando Sistema Académico... {datetime.now().strftime('%d/%m/%Y')}")
+    mi_seccion.generar_reporte_seccion()
+
+if __name__ == "__main__":
+    main()
+    
