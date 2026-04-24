@@ -25,11 +25,12 @@ Para poner en marcha el sistema, se debe tener instalado Python en el equipo, lu
 Estructura del Proyecto
 ___________________________
 El código está organizado de la siguiente manera:
-Clase Base (Persona): Contiene los datos comunes (RUT, nombre) para evitar duplicar código.
-Clases Derivadas (Estudiante y Docente): Especializaciones que heredan de Persona y añaden lógica propia, como el cálculo de promedios o especialidades.
-Orquestación (SistemaAcademico): Existe una clase coordinadora que gestiona el flujo de los datos sin concentrar toda la lógica en un solo lugar, lo que asegura un bajo acoplamiento.
-Encapsulamiento: Todos los datos sensibles están protegidos (atributos privados), accediendo a ellos solo mediante métodos autorizados.
-Diagrama de Clases UML desarrollado en PlantUML, representa la arquitectura técnica del sistema.
+
+* Clase Base (Persona): Contiene los datos comunes (RUT, nombre) para evitar duplicar código.
+* Clases Derivadas (Estudiante y Docente): Especializaciones que heredan de Persona y añaden lógica propia, como el cálculo de promedios o especialidades.
+* Orquestación (SistemaAcademico): Existe una clase coordinadora que gestiona el flujo de los datos sin concentrar toda la lógica en un solo lugar, lo que asegura un bajo acoplamiento.
+* Encapsulamiento: Todos los datos sensibles están protegidos (atributos privados), accediendo a ellos solo mediante métodos autorizados.
+* Diagrama de Clases UML desarrollado en PlantUML, representa la arquitectura técnica del sistema.
 
 Tecnologías Utilizadas
 ________________________
