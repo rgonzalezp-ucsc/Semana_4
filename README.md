@@ -8,7 +8,7 @@ __________________________________________
 ** Creación de sistema académico **
 __________________________________
 Este proyecto es una solución de software orientada a objetos diseñada para automatizar procesos básicos de una universidad.
-* El sistema permite gestionar la información de estudiantes, docentes y asignaturas, facilitando tareas esenciales como la inscripción de cursos, el registro de calificaciones y la validación automática de aprobación o reprobación de los alumnos.
+* El sistema permite gestionar la información de estudiantes, docentes y asignaturas, al facilitar tareas esenciales como la inscripción de cursos, el registro de calificaciones y la validación automática de aprobación o reprobación de los alumnos.
 * El diseño se centra en la modularidad y reutilización de código, aplicando los pilares fundamentales de la POO: abstracción, encapsulamiento, herencia y polimorfismo.
 
 Instrucciones de Ejecución
