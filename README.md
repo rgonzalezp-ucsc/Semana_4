@@ -20,7 +20,7 @@ ___________________________
 * Navega en tu equipo hasta la carpeta del proyecto.
 * Ejecuta el PlantUML (.puml) para visualizar Diagrama UML del software.
 * Ejecuta el programa (.py) en "Run Python File" en VSC).
-* El sistema mostrará los reportes y resultados directamente en la terminal de salida.
+* Observa la terminal de salida del sistema para visualizar los reportes y resultados de la ejecución del programa.
 
 Estructura del Proyecto
 ___________________________
