@@ -9,11 +9,11 @@ __________________________________________
 __________________________________
 Este proyecto es una solución de software orientada a objetos diseñada para automatizar procesos básicos de una universidad.
 * El sistema permite gestionar la información de estudiantes, docentes y asignaturas, al facilitar tareas esenciales como la inscripción de cursos, el registro de calificaciones y la validación automática de aprobación o reprobación de los alumnos.
-* El diseño se centra en la modularidad y reutilización de código, aplicando los pilares fundamentales de la POO: abstracción, encapsulamiento, herencia y polimorfismo.
+* El diseño se centra en la modularidad y reutilización de código, gracias a la aplicacion los pilares fundamentales de la POO: abstracción, encapsulamiento, herencia y polimorfismo.
 
 Instrucciones de Ejecución
 ___________________________
-Para poner en marcha el sistema, se debe tener instalado Python en el equipo, luego seguir siguinetes pasos:
+ Se requiere tener instalado lenguaje Python en el equipo previo a la puesta en marcha el software, luego seguir los siguientes pasos:
 
 * Descarga los archivos "evaluac_04.py" que es el código en Python y "Diagram_04.puml" que es el diagrama UML, ambos ubicados en el repositorio "Semana_4".
 * Abre una terminal o consola de comandos (Recomendado: Visual Studio Code).
