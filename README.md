@@ -38,4 +38,4 @@ ________________________
 * Lenguaje: Python
 * Modelamiento: PlantUML para el diseño de diagrama.
 * Gestión de Datos: Librería datetime para el manejo profesional de fechas.
-* Control de Versiones: Se instala Git y se sincroniza en VSC, se crea cuenta en GitHub.com para creacion de Cummits y acceder al historial de cambios.
+* Control de Versiones: Se instala Git y se sincroniza en VSC, se crea cuenta en GitHub.com para creación de Cummits y acceder al historial de cambios.
