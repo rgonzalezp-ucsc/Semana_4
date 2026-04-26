@@ -15,7 +15,7 @@ Instrucciones de Ejecución
 ___________________________
  Se requiere tener instalado lenguaje Python en el equipo previo a la puesta en marcha del sistema, luego seguir los siguientes pasos:
 
-* Descarga los archivos "evaluac_04.py" que es el código en Python y "Diagram_04.puml" (diagrama UML), ambos ubicados en el repositorio "Semana_4".
+* Descarga los archivos "evaluac_04.py" que es el código en Python y "Diagram_04.puml" (Diagrama UML), ambos ubicados en el repositorio "Semana_4".
 * Abre una terminal o consola de comandos (Recomendado: Visual Studio Code).
 * Navega en tu equipo hasta la carpeta del proyecto.
 * Ejecuta el PlantUML (.puml) para visualizar Diagrama UML del software.
