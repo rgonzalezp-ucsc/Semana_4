@@ -13,9 +13,9 @@ Este proyecto es una solución de software orientada a objetos diseñada para au
 
 Instrucciones de Ejecución
 ___________________________
- Se requiere tener instalado lenguaje Python en el equipo previo a la puesta en marcha el software, luego seguir los siguientes pasos:
+ Se requiere tener instalado lenguaje Python en el equipo previo a la puesta en marcha del sistema, luego seguir los siguientes pasos:
 
-* Descarga los archivos "evaluac_04.py" que es el código en Python y "Diagram_04.puml" que es el diagrama UML, ambos ubicados en el repositorio "Semana_4".
+* Descarga los archivos "evaluac_04.py" que es el código en Python y "Diagram_04.puml" (diagrama UML), ambos ubicados en el repositorio "Semana_4".
 * Abre una terminal o consola de comandos (Recomendado: Visual Studio Code).
 * Navega hasta la carpeta del proyecto.
 * Ejecuta el PlantUML (.puml) para visualizar Diagrama del software.
