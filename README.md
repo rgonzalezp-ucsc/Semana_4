@@ -17,8 +17,8 @@ ___________________________
 
 * Descarga los archivos "evaluac_04.py" que es el código en Python y "Diagram_04.puml" (diagrama UML), ambos ubicados en el repositorio "Semana_4".
 * Abre una terminal o consola de comandos (Recomendado: Visual Studio Code).
-* Navega hasta la carpeta del proyecto.
-* Ejecuta el PlantUML (.puml) para visualizar Diagrama del software.
+* Navega en tu equipo hasta la carpeta del proyecto.
+* Ejecuta el PlantUML (.puml) para visualizar Diagrama UML del software.
 * Ejecuta el programa (.py) en "Run Python File" en VSC).
 * El sistema mostrará los reportes y resultados directamente en la terminal de salida.
 
